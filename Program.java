@@ -1,9 +1,6 @@
-import java.util.List;
+import java.util.*;
 
-public class Main{
-    public static void main(String[] args){
-        
-    }
+class Program {
 
     public static List<Integer[]> fourNumberSum(int[] array, int targetSum) {
         Map<Integer, List<Integer[]>> allPairSums =  new HashMap<>();
